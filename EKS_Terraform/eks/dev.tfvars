@@ -32,7 +32,6 @@ desired_capacity_spot      = "1"
 min_capacity_spot          = "1"
 max_capacity_spot          = "10"
 addons = [
- addons = [
   {
     name    = "vpc-cni"
     version = "v1.19.2-eksbuild.1"
