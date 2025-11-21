@@ -36,7 +36,7 @@ pipeline {
                 }
             }
         }
-        stage('Action') {
+        stage('Action for changes') {
             steps {
                 withAWS(credentials: 'aws-creds', region: 'us-east-1') {
                     script {    
